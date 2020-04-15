@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>company | Feedback</title>
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+    <script defer src="../scripts/action.js"></script>
+</head>
+
+<body>
+    <div id="sidebar"><span class="menu-head">
+            Sidebar
+        </span><span class="close-btn text-dgray scale-1" onclick="hideBar()">&times;</span>
+        <br><br><br>
+        <a href="../index.html" class="sidebar-item">Home</a>
+        <a href="prices.html" class="sidebar-item">Prices</a>
+        <a href="store.html" class="sidebar-item">Store</a>
+
+        <a href="#" class="sidebar-item-last"></a>
+        <div id="additional">
+            <span class="menu-head">
+                Additional
+            </span><br><br>
+
+            <a href="./faq.html" class="sidebar-item">FAQ</a>
+            <a href="./feedback.html" class="sidebar-item active">Feedback</a>
+            <a href="./contact.html" class="sidebar-item">Contact Us</a>
+
+        </div>
+    </div>
+    <div id="box">
+        <div class="bar dgray bottom-alert n-space p-center">
+            <p>Allow Cookies <button class="btn-white w-40">Yes</button><button class="btn-white w-40">No</button> <span class="close-btn" onclick="closeBar(this);">&times;</span></p>
+        </div>
+        <div id="header">
+            <button onclick="sidebar()" id="menu-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+
+            </button>
+            <a href="../index.html" class="img-link-text m-auto">
+                <img src="../assets/images/sample-logo.png" alt="" class="img-sm-logo">
+                <h2>company</h2>
+            </a>
+        </div>
+
+        <div class="bar dblue n-space pagination">
+            <p><a href="../index.html">Home</a> / <a href="feedback.html">Feedback</a></p>
+
+        </div>
+
+        <div class="grid-col-2">
+
+
+            <div class="content m-left-5">
+                <h2>Feedback</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nam iure officiis. Dolorem, molestiae assumenda dolores maxime voluptatum illo asperiores impedit, quia quos magnam harum deserunt, exercitationem quo! Minima nobis omnis accusantium officiis
+                    eos quia corporis, autem maxime natus placeat?
+                </p>
+                <form action="" class="form">
+                    <span class="form-descr">What's your opinion?</span>
+                    <label for="user-name">Your name</label>
+                    <input type="text" name="user-name" class="form-control" placeholder="Name">
+                    <label for="">Your opinion</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="I like/dislike this..."></textarea>
+                    <div class="form-btn-bar">
+                        <button class="btn-dark form-btn-success" type="submit">Submit</button>
+                        <button class="btn-dark form-btn-danger">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <br>
+
+        </div>
+        <div class="footer ">
+            <p>All rights reserved 2019-20</p>
+            <br>
+            <p class="p-center">Images powered by</p>
+            <a href="https://unsplash.com/" class="img-link-text">
+                <img src="../assets/images/unsplash-logo.png" alt="" class="img-sm"> Unsplash
+            </a>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

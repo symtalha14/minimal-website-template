@@ -1,0 +1,129 @@
+<!-- Minimal Website Template -->
+<!-- HTML 5  CSS3 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>company | Prices</title>
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+    <script defer src="../scripts/action.js"></script>
+</head>
+
+<body>
+
+    <div id="sidebar"><span class="menu-head">
+        Sidebar
+    </span><span class="close-btn text-dgray scale-1" onclick="hideBar()">&times;</span>
+        <br><br><br>
+        <a href="../index.html" class="sidebar-item">Home</a>
+        <a href="./prices.html" class="sidebar-item active">Prices</a>
+        <a href="./store.html" class="sidebar-item ">Store</a>
+
+        <a href="#" class="sidebar-item-last"></a>
+        <div id="additional">
+            <span class="menu-head">
+                Additional
+            </span><br><br>
+
+            <a href="./faq.html" class="sidebar-item">FAQ</a>
+            <a href="./feedback.html" class="sidebar-item">Feedback</a>
+            <a href="./contact.html" class="sidebar-item">Contact Us</a>
+
+        </div>
+    </div>
+    <div id="box">
+        <div class="bar dgray bottom-alert n-space p-center">
+            <p>Allow Cookies <button class="btn-white w-40">Yes</button><button class="btn-white w-40">No</button> <span class="close-btn" onclick="closeBar(this);">&times;</span></p>
+        </div>
+        <div id="header">
+            <button onclick="sidebar()" id="menu-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+
+            </button>
+            <a href="../index.html" class="img-link-text m-auto">
+                <img src="../assets/images/sample-logo.png" alt="" class="img-sm-logo">
+                <h2>company</h2>
+            </a>
+        </div>
+        <!-- Pagination -->
+        <div class="bar dblue n-space pagination">
+            <p><a href="../index.html">Home</a> / <a href="./prices.html">Prices & Plans</a></p>
+        </div>
+        <!-- Pagination Ends -->
+        <div class="grid-col-2">
+
+
+            <div class="content m-left-5">
+                <h2>Prices and Plans</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat, cum aliquid, aperiam ipsam voluptatibus rerum dolores enim eveniet quas, impedit quasi maiores error deserunt veritatis mollitia? Quod voluptates ipsa autem nobis, impedit ab voluptate
+                    quaerat aut nostrum quis cumque, eaque aspernatur eius ex iste accusamus maxime provident magni molestiae?
+                    <br><span id="size"></span>
+                </p><br>
+                <div class="text-card">
+                    <p>
+                        Want to do this ?
+                        <button class="btn-dark w-60">Yes</button>
+                        <button class="btn-dark w-60">No</button>
+                    </p>
+                </div>
+                <br>
+                <h2>Plans</h2>
+                <br>
+                <div class="prices-container">
+                    <div class="prices-1">
+                        <h5>BASIC</h5><br>
+                        <div class="price-header"><br> $ <span>40</span> </div>
+                        <div class="price-content"></div>
+                    </div>
+                    <div class="prices-2">
+
+                        <h5>ECONOMICAL</h5><br>
+                        <div class="price-header"><br> $ <span>40</span> </div>
+                        <div class="price-content"></div>
+                    </div>
+                    <div class="prices-3">
+
+                        <h5>BUSINESS</h5><br>
+                        <div class="price-header"><br> $ <span>40</span> </div>
+                        <div class="price-content"></div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+
+            <!-- RIGHT SIDEBAR If needed -->
+            <!-- <div class="rightSideBar">
+                Additional<br><br>
+                <a href="#" class="right-sidebar-item">FAQ</a>
+                <a href="#" class="right-sidebar-item">Feedback</a>
+                <a href="#" class="right-sidebar-item">Contact Us</a>
+                <a href="#" class="sidebar-item-last"></a>
+            </div> -->
+
+            <br>
+
+            <!-- FOOTER -->
+            <div class="footer ">
+                <p>All rights reserved 2019-20</p>
+                <br>
+                <p class="p-center">Images powered by</p>
+                <!-- UnSplash Credits -->
+                <a href="https://unsplash.com/" class="img-link-text">
+                    <img src="../assets/images/unsplash-logo.png" alt="" class="img-sm"> Unsplash
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

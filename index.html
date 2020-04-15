@@ -1,0 +1,199 @@
+<!-- Minimal Website Template -->
+<!-- HTML 5  CSS3 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>company | Home</title>
+    <!-- Global Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <!-- Homepage Styling -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="../scripts/action.js" async defer></script>
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar"><span class="menu-head">
+            Sidebar
+        </span><span class="close-btn text-dgray scale-1" onclick="hideBar()">&times;</span>
+        <br><br><br>
+        <a href="/" class="sidebar-item active">Home</a>
+        <a href="./pages/prices.html" class="sidebar-item">Prices</a>
+        <a href="./pages/store.html" class="sidebar-item">Store</a>
+
+        <a href="#" class="sidebar-item-last"></a>
+        <!-- Additional Items in Sidebar -->
+        <div id="additional">
+            <span class="menu-head">
+                Additional
+            </span><br><br>
+
+            <a href="./pages/faq.html" class="sidebar-item">FAQ</a>
+            <a href="./pages/feedback.html" class="sidebar-item">Feedback</a>
+            <a href="./pages/contact.html" class="sidebar-item">Contact Us</a>
+
+        </div>
+    </div>
+    <!-- SIDEBAR ENDS -->
+    <!-- Main Box for all the content -->
+    <div id="box">
+        <!-- "Allow Cookies" Panel-->
+        <div class="bar dgray bottom-alert n-space p-center">
+            <p>Allow Cookies <button class="btn-white w-40">Yes</button><button class="btn-white w-40">No</button> <span class="close-btn" onclick="closeBar(this);">&times;</span></p>
+        </div>
+        <!-- "Allow Cookies" Panel ends -->
+        <!-- HEADER -->
+        <div id="header">
+            <button onclick="sidebar()" id="menu-icon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+
+            </button>
+            <a href="/" class="img-link-text m-auto">
+                <img src="../assets/images/sample-logo.png" alt="" class="img-sm-logo">
+                <h2>company</h2>
+            </a>
+        </div>
+        <!-- HEADER ENDS -->
+        <div class="grid-col-2">
+
+            <!-- CONTENT BOX -->
+            <div class="content">
+                <!-- Content Sections- "jumbo-content" -->
+
+                <!-- Master Section  -->
+                <div class="jumbo-content bshade master " data-box="1">
+                    <h1 class="jumbo-center grid-colspan-2">an all new experience</h1>
+                    <!-- <p class="p-center ">All new way to communicate!</p> -->
+                </div>
+                <div class="jumbo-content ashade " data-box="2 ">
+                    <div class="grid-col-1">
+                        <h1 class="jumbo-center ">Explore</h1>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat, cum aliquid, aperiam ipsam voluptatibus rerum dolores enim eveniet quas, impedit quasi maiores error deserunt veritatis mollitia? Quod voluptates ipsa autem nobis, impedit ab voluptate
+                            quaerat aut nostrum quis cumque, eaque aspernatur eius ex iste accusamus maxime provident magni molestiae?
+                        </p>
+
+                    </div>
+                    <div class="grid-col-2">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere cupiditate, illum provident dignissimos veniam saepe recusandae pariatur cum neque.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi reiciendis natus, ratione debitis nostrum. Sapiente corrupti eos eius animi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus distinctio quibusdam accusantium officiis reprehenderit cum! Magni molestiae dolor cumque!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="jumbo-content bshade align-left " data-box="3 ">
+                    <div class="grid-col-1">
+                        <!-- Side Content -->
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere cupiditate, illum provident dignissimos veniam saepe recusandae pariatur cum neque.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi reiciendis natus, ratione debitis nostrum. Sapiente corrupti eos eius animi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus distinctio quibusdam accusantium officiis reprehenderit cum! Magni molestiae dolor cumque!</li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-2">
+                        <h1 class="jumbo-center ">Never before</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat, cum aliquid, aperiam ipsam voluptatibus rerum dolores enim eveniet quas, impedit quasi maiores error deserunt veritatis mollitia? Quod voluptates ipsa autem nobis, impedit ab voluptate
+                            quaerat aut nostrum quis cumque, eaque aspernatur eius ex iste accusamus maxime provident magni molestiae?
+                        </p>
+                        <a href="#" class="btn-white w-100 ">
+                            Read more
+                        </a>
+                    </div>
+
+                    <br><span id="size "></span>
+                </div>
+                <div class="jumbo-content cshade align-left " data-box="4 ">
+                    <div class="grid-col-1">
+                        <h1 class="jumbo-center ">Feel the Power</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat, cum aliquid, aperiam ipsam voluptatibus rerum dolores enim eveniet quas, impedit quasi maiores error deserunt veritatis mollitia? Quod voluptates ipsa autem nobis, impedit ab voluptate
+                            quaerat aut nostrum quis cumque, eaque aspernatur eius ex iste accusamus maxime provident magni molestiae?
+                        </p>
+                        <a href="#" class="btn-dark w-100 ">
+                            Read more
+                        </a>
+                    </div>
+                    <!-- SIDE Items -->
+                    <div class="grid-col-2">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere cupiditate, illum provident dignissimos veniam saepe recusandae pariatur cum neque.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi reiciendis natus, ratione debitis nostrum. Sapiente corrupti eos eius animi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus distinctio quibusdam accusantium officiis reprehenderit cum! Magni molestiae dolor cumque!</li>
+                        </ul>
+                    </div>
+                    <!-- SIDE Items end -->
+                    <br><span id="size "></span>
+                </div>
+                <div class="jumbo-content dshade align-left" data-box="5 ">
+                    <!-- SIDE Items -->
+                    <div class="grid-col-1">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere cupiditate, illum provident dignissimos veniam saepe recusandae pariatur cum neque.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi reiciendis natus, ratione debitis nostrum. Sapiente corrupti eos eius animi.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus distinctio quibusdam accusantium officiis reprehenderit cum! Magni molestiae dolor cumque!</li>
+                        </ul>
+                    </div>
+                    <!-- SIDE Items end -->
+                    <div class="grid-col-2">
+                        <h1 class="jumbo-center dshade align-left">An experience to capture</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat, cum aliquid, aperiam ipsam voluptatibus rerum dolores enim eveniet quas, impedit quasi maiores error deserunt veritatis mollitia? Quod voluptates ipsa autem nobis, impedit ab voluptate
+                            quaerat aut nostrum quis cumque, eaque aspernatur eius ex iste accusamus maxime provident magni molestiae?
+                        </p>
+                        <a href="#" class="btn-dark w-100 ">
+                            Read more
+                        </a>
+                    </div>
+                    <br><span id="size "></span>
+                </div>
+
+
+                <!-- FOOTER- Transparent -->
+                <div class="footer ">
+                    <p>All rights reserved 2019-20</p>
+                    <br>
+                    <p class="p-center">Images powered by</p>
+                    <!-- UnSplash Credits -->
+                    <a href="https://unsplash.com/" class="img-link-text">
+                        <img src="./assets/images/unsplash-logo.png" alt="" class="img-sm"> Unsplash
+                    </a>
+
+                </div>
+                <!-- FOOTER Ends -->
+            </div>
+            <!-- Content Box Ends -->
+
+            <!-- RIGHT SIDEBAR- If needed -->
+            <!-- <div class="rightSideBar ">
+                Additional<br><br>
+                <a href="# " class="right-sidebar-item ">FAQ</a>
+                <a href="# " class="right-sidebar-item ">Feedback</a>
+                <a href="# " class="right-sidebar-item ">Contact Us</a>
+                <a href="# " class="sidebar-item-last "></a>
+            </div> -->
+            <br>
+        </div>
+
+    </div>
+    <!-- Main Box Ends -->
+
+    <style>
+        .content {
+            padding: 0;
+        }
+    </style>
+</body>
+
+</html>
